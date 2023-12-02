@@ -2,8 +2,8 @@ package com.onlinebanking.controllers;
 
 import com.onlinebanking.models.User;
 import com.onlinebanking.repository.UserRepository;
-import javax.mail.MessagingException;
-import javax.validation.Valid;
+import jakarta.mail.MessagingException;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Controller;

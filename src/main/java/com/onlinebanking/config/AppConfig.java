@@ -24,8 +24,8 @@ public class AppConfig extends WebMvcConfigurationSupport {
         jspViewResolver.setPrefix("/WEB-INF/jsp/");
         jspViewResolver.setSuffix(".jsp");
         jspViewResolver.setViewClass(JstlView.class);
-
         return jspViewResolver;
     }
+
 
 }

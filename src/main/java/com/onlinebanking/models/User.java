@@ -1,8 +1,8 @@
 package com.onlinebanking.models;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.validation.constraints.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.*;
 import lombok.Getter;
 import lombok.Setter;
 
