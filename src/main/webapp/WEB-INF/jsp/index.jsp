@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,29 +18,28 @@
         <!-- Card Body -->
         <div class="card-body">
             <!-- Card Header -->
-           <h1 class="mb-3">Easy-Way Bank</h1>
+           <h1 class="mb-4">ធនាគារ អនឡាញ</h1>
            <!-- End Card Header -->
 
            <!-- Card Title -->
-           <h5 class="card-title">
-                Flexible Banking Solutions
+           <h5 class="card-title mb-3">
+               ផ្តល់ភាពងាយស្រួល រហ័សទាន់ចិត្ត និងមានសុវត្ថិភាពខ្ពស់
            </h5>
            <!-- End Of Card Title -->
 
            <!-- Card Text -->
-           <p class="card-text">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam fuga, 
-               cupiditate temporibus magnam voluptatibus eaque laudantium, 
-               maxime nemo est iste voluptate veniam sequi optio nesciunt! Perspiciatis officia,
-               dolor qui nesciunt aspernatur sequi minima totam. Recusandae deserunt expedita vel excepturi perferendis necessitatibus, 
-               saepe laudantium distinctio officia aliquam, reprehenderit suscipit nostrum aspernatur?
+           <p class="card-text lh-base">
+               សូមស្វាគមន៍មកកាន់វេទិកាធនាគារតាមអ៊ីនធឺណិតរបស់យើង ដែលជាវិធីសុវត្ថិភាព និងងាយស្រួល របស់អ្នកក្នុងការគ្រប់គ្រងហិរញ្ញវត្ថុ។ <br>
+               ត្រួតពិនិត្យគណនី ផ្ទេរប្រាក់ និងបង់វិក្កយបត្រយ៉ាងងាយស្រួល។ រីករាយជាមួយការជូនដំណឹងតាមពេលវេលាជាក់ស្តែង និងមុខងារសុវត្ថិភាព <br>
+               កម្រិតខ្ពស់បំផុតសម្រាប់បទពិសោធន៍ដែលមិនមានការព្រួយបារម្ភ។ ធនាគារបានគ្រប់ពេលវេលា គ្រប់ទីកន្លែង និងគ្រប់គ្រងការ <br>
+               ធ្វើដំណើរហិរញ្ញវត្ថុរបស់អ្នកដោយមិនពិបាក។
            </p>
            <!-- End Of Card Text -->
 
            <!-- Button Wrapper -->
            <div class="button-wrapper d-flex align-items-center">
-                <a href="/register" class="btn btn-md register" role="button">Register</a>
-                <a href="/login" class="btn btn-md login" role="button">Login</a>
+                <a href="/register" class="btn btn-md register" role="button">បង្កើតគណនី</a>
+                <a href="/login" class="btn btn-md login" role="button">ចូលគណនី</a>
            </div>
            <!-- End Of Button Wrapper -->
 

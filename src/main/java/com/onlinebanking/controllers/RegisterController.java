@@ -65,7 +65,7 @@ public class RegisterController {
         userRepository.registerUser(first_name, last_name, email, hashed_password, code);
 
         // RETURN TO REGISTER PAGE:
-        String successMessage = "Account Registered Successfully, Please Check your Email and Verify Account!";
+        String successMessage = "Account Registered Successfully!";
         registrationPage.addObject("success", successMessage);
         return registrationPage;
     }

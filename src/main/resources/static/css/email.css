@@ -6,7 +6,7 @@
 /* Main Body Styling */
 body{
     height: 100vh;
-    background-color: rgb(212, 222, 230);
+    /*background-color: rgb(212, 222, 230);*/
     display: flex;
     align-items: center;
     justify-content: center;

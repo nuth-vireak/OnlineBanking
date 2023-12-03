@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix = "fn" uri = "http://java.sun.com/jsp/jstl/functions" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,30 +26,30 @@
     <div class="container">
 
        <!-- Card: Payment History Card -->
-       <div class="card">
+       <div class="card bg-dark text-white">
             <!-- Card Header -->
             <div class="card-header">
-                <i class="fas fa-credit-card me-2" aria-hidden="true"></i> Payment History
+                <i class="fas fa-credit-card me-2" aria-hidden="true"></i> ប្រវត្តិការទូទាត់ប្រាក់
             </div>
             <!-- End Of Card Header -->
             <!-- Card Body -->
             <div class="card-body">
             <c:if test="${requestScope.payment_history != null}">
                 <!-- Payment History Table -->
-                <table class="table text-center table-striped">
-                    <tr>
-                        <th>Record Number</th>
-                        <th>Beneficiary</th>
-                        <th>Beneficiary Account Number</th>
-                        <th>Amount</th>
-                        <th>Status</th>
-                        <th>Reference</th>
-                        <th>Reason Code</th>
-                        <th>Created at</th>
+                <table class="table text-center table-striped bg-dark text-white">
+                    <tr class="bg-dark text-white">
+                        <th>លេខកូដទូទាត់ប្រាក់</th>
+                        <th>ឈ្មោះអ្នកទទូលប្រាក់</th>
+                        <th>លេខគណនីអ្នកទទូលប្រាក់</th>
+                        <th>ចំនួនទឹកប្រាក់</th>
+                        <th>ស្ថានភាព</th>
+                        <th>គោលបំណង</th>
+                        <th>លេខកូដមូលហេតុ</th>
+                        <th>កាលបរិច្ឆេទ</th>
                     </tr>
                     <!-- Loop Through Payment History Records -->
                     <c:forEach items="${requestScope.payment_history}" var="payments">
-                    <tr>
+                    <tr class="bg-dark text-white">
                         <td>${payments.payment_id}</td>
                         <td>${payments.beneficiary}</td>
                         <td>${payments.beneficiary_acc_no}</td>

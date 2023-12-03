@@ -1,6 +1,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix = "fn" uri = "http://java.sun.com/jsp/jstl/functions" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +22,7 @@
         <div class="card-body">
             <!-- Form Header -->
             <h1 class="form-header card-title mb-3 text-white">
-                <i class="fa fa-user-edit"></i> Login
+                <i class="fa fa-user-edit"></i> ចូលគណនី
             </h1>
             <!-- End Of Form Header -->
 
@@ -53,13 +55,13 @@
 
                 <!-- From Group -->
                 <div class="form-group col">
-                    <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter Email"/>
+                    <input type="email" name="email" class="form-control form-control-lg" placeholder="អ៊ីម៉ែល"/>
                 </div>
                 <!-- End Of From Group -->
 
                 <!-- From Group -->
                 <div class="form-group col mt-3">
-                    <input type="password" name="password" class="form-control form-control-lg" placeholder="Enter Password"/>
+                    <input type="password" name="password" class="form-control form-control-lg" placeholder="លេខសំងាត់"/>
                 </div>
                 <!-- End Of From Group -->
 
@@ -71,7 +73,7 @@
 
                 <!-- From Group -->
                 <div class="form-group col mt-3">
-                    <button class="btn btn-lg bg-warning">Login</button>
+                    <button class="btn btn-lg bg-warning">ចូលគណនី</button>
                 </div>
                 <!-- End Of From Group -->
 
@@ -80,13 +82,14 @@
 
             <!-- Card Text -->
             <p class="card-text text-white my-2">
-                Dont have an account? <span class="ms-2"><a href="/register" class="btn bt-sm text-warning">Sign Up</a></span>
+                មិនមែនមានគណនីនៅឡើយទេ?
+                <span class="ms-2"><a href="/register" class="btn bt-sm text-warning">ចុះឈ្មោះ</a></span>
             </p>
             <!-- Card Text -->
 
             <!-- Back Button To Landing Page -->
             <small class="text-warning">
-                <i class="fa fa-arrow-alt-circle-left"></i> <a href="/" class="btn btn-sm text-warning">Back</a>
+                <i class="fa fa-arrow-alt-circle-left"></i> <a href="/" class="btn btn-sm text-warning">ត្រលប់ក្រោយ</a>
             </small>
             <!-- End Of Back Button To Landing Page -->
 

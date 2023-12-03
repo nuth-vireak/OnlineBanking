@@ -10,9 +10,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="../css/fontawesome/css/all.css">
-    <link rel="stylesheet" href="../css/dashboard.css">
     <script src="../js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
     <title>Dashboard</title>
+    <style>
+        body {
+            background-color: rgb(211, 217, 226);
+            height: 100vh;
+            background-image: url("../images/main_bg.jpg");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
 
